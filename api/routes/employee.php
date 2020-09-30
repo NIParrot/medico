@@ -1,0 +1,10 @@
+<?php 
+NI_Api_route::post('employee/register',function(){
+    NI_Api_Controller::run('employee@register');
+});
+NI_Api_route::post('employee/update',function(){
+    NI_Api_Controller::run('employee@update');
+});
+NI_Api_route::post('employee/delete',function(){
+    NI_Api_Controller::run('employee@delete');
+});

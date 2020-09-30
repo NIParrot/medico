@@ -1,0 +1,19 @@
+<?php
+NI_Api_route::post('admin/employeetype/delete',function(){
+    NI_Api_Controller::run('admin@DeleteEmployeeType');
+});
+NI_Api_route::post('admin/employeetype/update',function(){
+    NI_Api_Controller::run('admin@UpdateEmployeeType');
+});
+NI_Api_route::post('admin/employeetype',function(){
+    NI_Api_Controller::run('admin@PostEmployeeType');
+});
+NI_Api_route::post('admin/org_type',function(){
+    NI_Api_Controller::run('admin@PostOrgType');
+});
+NI_Api_route::post('admin/org_type/delete',function(){
+    NI_Api_Controller::run('admin@DeleteOrgType');
+});
+NI_Api_route::post('admin/org_type/update',function(){
+    NI_Api_Controller::run('admin@UpdateOrgType');
+});
